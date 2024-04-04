@@ -20,10 +20,10 @@ flutter:
   uses-material-design: true
   assets:
     - assets/imaes/colors/
-    - assets/imaes/family_members/
+    - assets/imaes/family/
     - assets/imaes/numbers/
     - assets/imaes/Private_Image/
     - assets/sounds/colors/
-    - assets/sounds/family_members/
+    - assets/sounds/family/
     - assets/sounds/numbers/
     - assets/sounds/phrases/
