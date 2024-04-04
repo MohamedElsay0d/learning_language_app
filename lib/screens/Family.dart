@@ -27,8 +27,37 @@ class Family_Page extends StatelessWidget {
         "assets/imaes/family_members/family_son.png"
   ];
 
+  final title = [
+    "Sofu" , "Sobo" , 
+    "Chichioya" , "Hahaoya" , 
+    "Musume" , "Ōrudoburazā" , 
+    "Ane" , "Otōto" , "Imōto" , "Musuko"
+  ];
+
+  final subTitle = [
+    "GrandFather" , "Grandmother" , 
+    "Father" , "Mother" , 
+    "Daughter" , "Old_Brather" , 
+    "Old_Sister" , "Young_Brother" , "Young_Sister" , "Son"
+  ];
+  
+  final music = [
+    "assets/sounds/family_members/grand father.wav"
+    "assets/sounds/family_members/grand mother.wav"
+    "assets/sounds/family_members/father.wav"
+    "assets/sounds/family_members/mother.wav"
+    "assets/sounds/family_members/daughter.wav"
+    "assets/sounds/family_members/older bother.wav"
+    "assets/sounds/family_members/older sister.wav"
+    "assets/sounds/family_members/younger brohter.wav"
+    "assets/sounds/family_members/younger sister.wav"
+    "assets/sounds/family_members/son.wav"
+  ] ;
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+
+    );
   }
 }
