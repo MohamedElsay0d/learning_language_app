@@ -27,7 +27,7 @@ class Toku_App extends StatelessWidget {
               GestureDetector(
                 child: Category(Color(0xFF00ff00), "Family_Members"),
                 onTap: () {
-                  Navigator.of(context).pushNamed("Family");
+                  Navigator.of(context).pushNamed("Family_screen");
                 },
               ),
               Category(Color(0xFF800080), "Colors"),
