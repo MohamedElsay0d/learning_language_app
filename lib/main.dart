@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, file_names
 
 import 'package:flutter/material.dart';
-import 'package:learning_language_app/screens/Family.dart';
+import 'screens/Family.dart';
 import 'Toku_App.dart';
 import 'screens/Numbers.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       home: Toku_App(),
       routes: {
         "Numbers": (context) => numbers(),
-        "Family": (context) => family(),
+        "Family_screen": (context) => family(),
       },
     );
   }
